@@ -1,0 +1,53 @@
+h1{ 
+    text-align: center;
+}
+table ,tr, th ,td {
+border: 1px solid black;
+}
+td{
+    text-transform: capitalize;
+}
+table{
+    width: 500px;
+    margin: auto;
+}
+   .male-less-then{
+        background-color: grey;
+     }
+     .male-more-then {
+        background: black;
+        color: white;
+     }
+     .female-more-then{
+        background:  pink ;
+        color: black;
+     }
+     .female-less-then{
+        background: red;
+     }
+     .container {
+        border:20px solid #000;
+        width:500px;
+     }
+    /*male  ul li  {
+        list-style: none;
+      width:200px;
+      height:300px;
+      background: url('../class/download.jpg');
+      background-repeat: no-repeat;
+        
+     }*/
+
+     li {
+        list-style: none;
+        padding: 10px 30px;
+        background: url('../class/download.jpg');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 30px;
+       
+    }
+   li::marker {
+    width:200px;
+    height: 300px ;
+   }
